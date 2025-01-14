@@ -1,0 +1,196 @@
+body  {
+    background-color: black;
+    margin: 0;
+    padding: 0%;
+
+}
+.container{
+    border-right: 2px solid white;
+    width: 30%;
+ 
+}
+.parteinteira {
+    justify-content: space-between;
+    display: flex;
+}
+
+#firstpart  img{
+    width: 50px;
+    height: 50px;
+    padding-left: 105px;
+    padding-top: 10px;
+    
+
+}
+#list {
+    padding-top: 5px;
+}
+#list img {
+ width: 35px;
+ height: 35px;
+ padding-left: 70px;
+ margin-right: 10px;
+}
+#list li {
+    margin-top: 20px;
+    color:white;
+    list-style: none;
+    font-family: poppins;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+#list a {
+    text-decoration: none;
+    color: white;
+
+}
+#post button  {
+    background-color: white;
+    width: 250px;
+    height: 60px;
+    margin-left: 110px;
+    color: black;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: large;
+    border-radius: 30px 30px;
+}
+.hoverbuttons li:hover {
+    background-color: #161a1d;
+    border-radius: 30px 30px;
+    width: 290px;
+    height: 45px;
+    align-items: center;
+    transition: ease 0.3s;
+    border: 4px solid white;
+}
+#post button:hover {
+    background-color: #8e9aaf;
+    transition: ease-in-out 0.5s;
+}
+.right {
+    background-color: black;
+    width: 30%;
+    color: white;
+    border-left: 2px solid white;
+}
+#buscar {
+    padding-top: 10px;
+    padding-left: 50px;
+}
+#buscar input {
+ width: 330px;
+ border-radius: 30px 30px;
+ height: 45px;
+ background-color: #161a1d;
+border: none;
+}
+#buscar input::placeholder{
+    color: grey;
+    padding-left: 20px;
+}
+#buscar input:hover {
+    background-color: black;
+    border: 1px solid blue;
+}
+#pre {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px 10px;
+    border: 2px solid white;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 290px;
+    font-family: poppins;
+}
+#pre h1 {
+    font-size: xx-large;
+}
+#pre p {
+    font-weight: 400;
+
+}
+#pre button {
+    background-color: #4895ef;
+    height: 40px;
+    width: 120px;
+    border-radius: 30px;
+    color: white;
+    font-family: poppins;
+    font-weight: 500;
+}
+#pre button:hover {
+    background-color: blue;
+    transition: ease 0.5s;
+}
+#aovivo {
+    border-radius: 10px 10px;
+    border: 2px solid white;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 290px;
+    font-family: poppins;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#aovivo h1 {
+    font-size: xx-large;
+}
+#aovivo p {
+    font-weight: 500;
+}
+#famosos {
+    border-radius: 10px 10px;
+    border: 2px solid white;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 290px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    padding-bottom: 20px;
+
+}
+#famosos h1 {
+    font-family: poppins;
+}
+#famosos h2 {
+    font-size:medium;
+    color: grey;
+    font-family: poppins;
+}
+#famosos a {
+    text-decoration: none;
+    color: white;
+}
+#famosos p {
+    margin-top: -7px;
+    padding-left: 8px;
+    font-family: poppins;
+    font-weight: 500;
+
+}
+.assuntos:hover {
+    background-color: #343a40;
+    transition: ease 0.7s;
+}
+#termos li{
+    display: inline-block;
+    font-family: poppins;
+    margin: 10px;
+    font-weight: 400;
+    color: grey;
+}
+#termos a {
+    color: grey;
+    text-decoration: none;
+}
+#termos a:hover {
+    text-decoration: underline;
+}
+.center {
+    width: 40%;
+    background-color: black;
+}
